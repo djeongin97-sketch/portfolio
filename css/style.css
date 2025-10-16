@@ -1,0 +1,627 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*공통꾸미기*/
+p {
+    font-family: @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+}
+
+h3 {
+    font-family: 'MODERNIZ', sans-serif;
+    font-size: 32px;
+    padding-top: 96px;
+}
+
+/* Header 메뉴부분 */
+
+
+header {
+    text-align: center;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 65px;
+}
+
+nav ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 상단 메뉴 컬러 */
+
+/*상단긁어옴*/
+nav ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444;
+    font-size: 20px;
+    font-weight: ;
+}
+
+.bg-nav {
+    background: #fff;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.bg-nav ul {
+    padding: 10px;
+}
+
+a:focus {
+    color: #C2D6EF;
+    text-decoration: none;
+}
+
+
+a.active {
+    color: #ffffff;
+}
+
+/*header*/
+
+
+#header {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+height: 100%;
+margin: 0 auto;
+
+
+.bg {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+
+.gnb_line {
+    position: absolute;
+    width: 100%;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*gnb*/
+.gnb_li {
+    width: 1210px;
+    margin: 0px auto;
+}
+
+.gnb_li ul {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: #2B2B2B;
+    font-weight: 500;
+}
+
+.gnb_li ul li a:hover {
+    color: #4B68A7;
+}
+
+
+.gnb_sub {
+    display: flex;
+    background-color: antiquewhite;
+    padding-left: 500px;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'MODERNIZ', sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: 'pretendard';
+}
+
+.gnb_sub img {
+    padding-right: 50px;
+}
+
+/*about_wrap*/
+#about_wrap {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    padding: 70px 0 90px 35px;
+}
+
+.about_txt {
+    padding-top: 90px;
+    padding-left: 65px;
+    color: #1D1D1D;
+}
+
+h4 {
+    font-size: 24px;
+    color: #1E1E1E;
+}
+
+.about_li {
+    display: flex;
+}
+
+.about_li li {
+    color: #4B68A7;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.about_li li a:hover{
+    color:#849bcc;
+}
+
+.about_img{
+    float: right;
+    margin-top: 80px;
+}
+
+.txt1 {
+    font-size: 15px;
+    padding: 22px 0;
+}
+
+.txt2 {
+    font-size: 15px;
+    padding-bottom: 55px;
+}
+
+
+
+/*PROJECTS_wrap*/
+#PROJECTS_wrap h3,
+.main_project {
+    width: 1210PX;
+    margin: 0 auto;
+}
+
+/* 감싸는 요소에 크기 고정 + 넘침 숨김 처리 */
+/* 큰 이미지 */
+/*프레임이 되는 상자*/
+
+.brand_hover {
+    overflow: hidden;
+    display: block;
+    /*margin-top: 0px;*/
+    cursor: default;
+    width: 578px;
+    height: 430px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* 이미지에 block 및 transition 추가 */
+.brand_hover img {
+    display: block;
+    width: 578px;
+    height: 430px;
+    transition: transform 0.5s ease;
+}
+
+/* 호버 시 이미지만 확대 */
+.brand_hover:hover img {
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+
+/* sub 이미지 */
+.brand_hover2 {
+    overflow: hidden;
+    display: block;
+    /*margin-top: 0px;*/
+    cursor: default;
+    width: 610px;
+    height: 218px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* 이미지에 block 및 transition 추가 */
+.brand_hover2 img {
+    display: block;
+    width: 609px;
+    height: 218px;
+    transition: transform 0.5s ease;
+}
+
+/* 호버 시 이미지만 확대 */
+.brand_hover2:hover img {
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+/* 작은 이미지들 */
+.brand_hover3 {
+    overflow: hidden;
+    display: block;
+    margin-top: 0px;
+    cursor: default;
+    width: 304px;
+    height: 212px;
+    position: relative;
+}
+
+/* 이미지에 block 및 transition 추가 */
+.brand_hover3 img {
+    /* display: block;*/
+    width: 304px;
+    height: 212px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+/* 호버 시 이미지만 확대 */
+.brand_hover3:hover img {
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+.mi_img{
+    display: flex;
+}
+
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    /*프레임 기준 상자*/
+    box-sizing: border-box;
+    position: relative;
+}
+
+.atti4 {
+    margin-right: 10px;
+}
+
+.project_btn {
+    display: inline-block;
+    padding: 4px 15px;
+    border: 1px solid #4B68A7;
+    border-radius: 20px;
+    color: #4B68A7;
+}
+
+.main_project {
+    padding-top: 70px;
+}
+
+.main_project p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #3C3C3C;
+    font-weight: 500;
+}
+
+.projcet_btn_box {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.project_btn:hover {
+    color: #ffffff;
+    background-color: #4B68A7;
+}
+
+.project_title {
+    color: #4B68A7;
+    padding-bottom: 7px;
+}
+
+.project_img {
+    float: right;
+    padding-top: 400px;
+    padding-right: 50px;
+}
+
+/*ARTWORK_wrap*/
+#ARTWORK_wrap h3,
+.artwork_box {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.artwork_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.artwork_img {
+    position: absolute;
+    ;
+    top: 350%;
+    left: 90px;
+    box-sizing: border-box;
+}
+
+.artwork_text{
+    font-family: 'pretendard';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* 프레임이 되는 상자 */
+.awesome-img{
+    width: 361px;
+    height: 449px;
+    box-sizing: border-box;
+    position: relative;
+    /* 기준 */
+    overflow: hidden;
+}
+
+/**/
+.project-dec{
+    background-color: #0000003b;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100%;
+    padding-top: 190px;
+    box-sizing: border-box;
+    transform: translateY(500px);
+    transition: all 0.8s;
+}
+
+.awesome-img:hover .project-dec{
+    transform: translateZ(500px);
+    transition: all 0.8s;
+}
+
+.instaa{
+    padding-left: 30%;
+    color: #1D1D1D;
+}
+
+.tooon{
+    padding-left: 42%;
+    font-size: 15px;
+}
+
+.videoo{
+    padding-left: 42%;
+    color: #1D1D1D;
+}
+
+.short{
+    padding-left: 39%;
+    font-size: 15px;
+}
+
+.card{
+    padding-left: 38%;
+    color: #1D1D1D;
+}
+
+.nat{
+    padding-left: 32%;
+    font-size: 15px;
+}
+
+
+/*myroad*/
+#myroad {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+#myroad h4 {
+    color: #4B68A7;
+}
+
+#myroad p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-family: 'pretendard';
+    font-weight: 500;
+}
+
+span {
+    font-size: 10px;
+}
+
+.timeline-column {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    border-left: 2px solid #4B68A7;
+}
+
+.myroad_box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+
+
+/*skill*/
+
+#skills_wrap {
+    margin-bottom: 300px;
+}
+
+.skill_title {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.skills {
+    gap: 40px;
+    width: 1400px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.circle svg {
+    width: 220px;
+    height: 220px;
+    transform: rotate(-90deg);
+}
+
+circle {
+    fill: none;
+    stroke-width: 15;
+}
+
+circle.bg {
+    stroke: #655e47;
+}
+
+circle.progress {
+    stroke: #4B68A7;
+    stroke-dasharray: 628;
+    stroke-dashoffset: 628;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.inner span {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+}
+
+.inner p {
+    font-weight: 550;
+    font-size: 18px;
+    margin: 0;
+}
+
+.percent {
+    margin-bottom: 10px;
+}
+
+
+
+/*CONTACT*/
+#CONTACT h3,
+.container {
+    width: 1210PX;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.col-md-4 h4 {
+    color: #4B68A7;
+}
+
+.contact_img {
+    position: absolute;
+    top: 520%;
+    right: 0;
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+
+/*footer*/
+#footer {
+    background-color: #C2D6EF;
+    margin-top: 70px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 20px;
+}
