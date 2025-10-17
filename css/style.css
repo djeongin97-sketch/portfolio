@@ -266,12 +266,14 @@ h4 {
     width: 578px;
     height: 430px;
     transition: transform 0.5s ease;
+    box-sizing: border-box;
 }
 
 /* 호버 시 이미지만 확대 */
 .brand_hover:hover img {
     transform: scale(1.1);
     transition: all 0.8s;
+    box-sizing: border-box;
 }
 
 
@@ -293,12 +295,14 @@ h4 {
     width: 609px;
     height: 218px;
     transition: transform 0.5s ease;
+    box-sizing: border-box;
 }
 
 /* 호버 시 이미지만 확대 */
 .brand_hover2:hover img {
     transform: scale(1.1);
     transition: all 0.8s;
+    box-sizing: border-box;
 }
 
 /* 작은 이미지들 */
@@ -328,21 +332,25 @@ h4 {
 }
 .img_wrap{
     display: flex;
+    box-sizing: border-box;
 }
 
 .mi_img{
     display: flex;
+    box-sizing: border-box;
 }
 
 
 .img1 {
     float: left;
+    box-sizing: border-box;
 }
 
 .img2 {
     /*프레임 기준 상자*/
     box-sizing: border-box;
     position: relative;
+    box-sizing: border-box;
 }
 
 .atti4 {
@@ -360,6 +368,7 @@ h4 {
 
 .main_project {
     padding-top: 70px;
+    box-sizing: border-box;
 }
 
 .main_project p {
