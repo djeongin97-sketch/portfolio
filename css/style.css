@@ -91,7 +91,7 @@ nav li a {
 }
 
 a:focus {
-    color: #C2D6EF;
+    color: #4B68A7;
     text-decoration: none;
 }
 
@@ -176,6 +176,12 @@ p {
 
 .gnb_sub img {
     padding-right: 50px;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
 }
 
 /*about_wrap*/
@@ -320,6 +326,9 @@ h4 {
     transform: scale(1.1);
     transition: all 0.8s;
 }
+.img_wrap{
+    display: flex;
+}
 
 .mi_img{
     display: flex;
@@ -342,10 +351,11 @@ h4 {
 
 .project_btn {
     display: inline-block;
-    padding: 4px 15px;
+    padding: 3px 15px 5px 15px;
     border: 1px solid #4B68A7;
     border-radius: 20px;
     color: #4B68A7;
+    text-align: center;
 }
 
 .main_project {
