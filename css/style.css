@@ -429,7 +429,7 @@ h4 {
 
 /**/
 .project-dec{
-    background-color: #0000003b;
+    background-color: #00000079;
     color: #fff;
     width: 100%;
     position: absolute;
@@ -450,7 +450,7 @@ h4 {
 
 .instaa{
     padding-left: 30%;
-    color: #1D1D1D;
+    color: #C2D6EF;
 }
 
 .tooon{
@@ -460,7 +460,7 @@ h4 {
 
 .videoo{
     padding-left: 42%;
-    color: #1D1D1D;
+    color: #C2D6EF;
 }
 
 .short{
@@ -470,7 +470,7 @@ h4 {
 
 .card{
     padding-left: 38%;
-    color: #1D1D1D;
+    color: #C2D6EF;
 }
 
 .nat{
@@ -515,6 +515,9 @@ span {
     padding-top: 70px;
 }
 
+.timeline-item:hover{
+    color: #4B68A7;
+}
 
 
 /*skill*/
