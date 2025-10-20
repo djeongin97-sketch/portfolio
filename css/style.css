@@ -511,7 +511,7 @@ h4 {
 #myroad p {
     padding-top: 10px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 18px;
     font-family: 'pretendard';
     font-weight: 500;
@@ -526,6 +526,8 @@ h4 {
 
 .timeline-column {
     border-left: 2px solid #4B68A7;
+    padding-top: 0px;
+    margin-top: 10px;
 }
 
 .myroad_title{
@@ -599,7 +601,7 @@ circle {
 }
 
 circle.bg {
-    stroke: #655e47;
+    stroke: #C2D6EF;
 }
 
 circle.progress {
@@ -664,7 +666,7 @@ circle.progress {
 
 .contact_img {
     position: absolute;
-    top: 520%;
+    top: 550%;
     right: 0;
     padding-right: 200px;
     box-sizing: border-box;
