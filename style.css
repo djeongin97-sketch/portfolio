@@ -258,7 +258,6 @@ h4 {
     height: 430px;
     position: relative;
     box-sizing: border-box;
-    will-change: transform;
 }
 
 /* 이미지에 block 및 transition 추가 */
@@ -268,6 +267,7 @@ h4 {
     height: 430px;
     transition: transform 0.5s ease;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 /* 호버 시 이미지만 확대 */
@@ -297,6 +297,7 @@ h4 {
     height: 218px;
     transition: transform 0.5s ease;
     box-sizing: border-box;
+     object-fit: cover;
 }
 
 /* 호버 시 이미지만 확대 */
@@ -325,6 +326,7 @@ h4 {
     overflow: hidden;
     transition: transform 0.5s ease;
     box-sizing: border-box;
+     object-fit: cover;
 }
 
 /* 호버 시 이미지만 확대 */
@@ -335,7 +337,6 @@ h4 {
 .img_wrap{
     display: flex;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .mi_img{
@@ -499,6 +500,39 @@ h4 {
     padding-top: 10px;
     line-height: 25px;
     font-weight: 450;
+}
+/* print_wrap*/
+#print_wrap h3, .print_box{
+     width: 1210px;
+    margin: 0 auto;
+   /* padding-top: 100px; */
+}
+
+.print_box {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.print_box img {
+     width: 50%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.print_box p {
+    font-size: 18px;
+    color: #3C3C3C;
+    padding-bottom: 10px;
+}
+
+.print_desc {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 /*myroad*/
