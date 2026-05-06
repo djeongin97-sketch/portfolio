@@ -476,14 +476,26 @@ h4 {
 .videoo{
     padding-left: 42%;
     color: #C2D6EF;
+    
 }
 
 .short{
-    padding-left: 39%;
+    padding-left: 33%;
     font-size: 15px;
     color: #fff;
+    align-self: center;
 }
-
+.shortt{
+    padding-left: 28%;
+    font-size: 15px;
+    color: #fff;
+    align-self: center;
+}
+.artwork_box h4{
+    color: #849bcc;
+}
+.artwork_box span:hover{
+    color: #C2D6EF;}
 
 .card{
     padding-left: 38%;
