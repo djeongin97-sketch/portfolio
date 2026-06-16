@@ -447,11 +447,11 @@ h4 {
     color: #fff;
     width: 100%;
     position: absolute;
+    padding-top: 150px;
     top: 0;
     left: 0;
     z-index: 9;
     height: 100%;
-    padding-top: 190px;
     box-sizing: border-box;
     transform: translateY(500px);
     transition: all 0.8s;
@@ -461,6 +461,7 @@ h4 {
     transform: translateZ(500px);
     transition: all 0.8s;
 }
+
 
 .instaa{
     padding-left: 30%;
@@ -482,13 +483,13 @@ h4 {
 .short{
     padding-left: 33%;
     font-size: 15px;
-    color: #fff;
+    color: lightgoldenrodyellow;
     align-self: center;
 }
 .shortt{
     padding-left: 28%;
     font-size: 15px;
-    color: #fff;
+    color: rgb(253, 186, 160);
     align-self: center;
 }
 .artwork_box h4{
@@ -512,6 +513,27 @@ h4 {
     padding-top: 10px;
     line-height: 25px;
     font-weight: 450;
+}
+.art_sub1{
+  padding-left: 33%;
+  font-size: 12px;
+}
+.art_sub2{
+  padding-left: 38%;
+}
+.art_subb1{
+    padding-left: 30%;
+}
+.art_subb2{
+    padding-left: 40%;
+}
+.art_sub3{
+ padding-left: 36%;
+  font-size: 12px;
+}
+.art_subb3{
+    padding-left: 33%;
+    font-size: 12px
 }
 /* print_wrap*/
 #print_wrap h3, .print_box{
