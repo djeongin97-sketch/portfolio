@@ -69,17 +69,19 @@
   }
 
   .bg {
-    height: 220px;
+    height: auto;
+    overflow: visible;
   }
 
   video {
-    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .gnb_line {
-    top: auto;
-    bottom: 0;
-    left: 0;
+    position: static;
     transform: none;
     background: rgba(255, 255, 255, 0.94);
   }
@@ -318,6 +320,36 @@
   #footer {
     margin-top: 50px;
   }
+}
+
+@media (min-width: 768px) {
+  .gnb_li ul {
+    padding: 26px 20px;
+  }
+
+  nav li {
+    margin: 0 18px;
+  }
+}
+
+/* Full-width hero on every screen without cropping the original video. */
+.bg {
+  height: auto;
+  overflow: visible;
+}
+
+.bg > video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.gnb_line {
+  position: static;
+  width: 100%;
+  transform: none;
+  background: #fff;
 }
 
 /* Normal desktop :992px. */
@@ -603,5 +635,28 @@
   }
   .tab-menu ul.nav li a {
     padding: 8px 20px;
+  }
+}
+
+/* Keep the full hero video visible on mobile. */
+@media (max-width: 767px) {
+  .bg {
+    height: auto;
+    overflow: visible;
+  }
+
+  .bg > video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .gnb_line {
+    position: static;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
   }
 }

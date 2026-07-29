@@ -424,13 +424,14 @@ h4 {
 
 .project-meta div {
     display: grid;
-    grid-template-columns: 92px 1fr;
-    gap: 12px;
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 16px;
 }
 
 .project-meta dt {
     color: #4B68A7;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .project-meta dd {
