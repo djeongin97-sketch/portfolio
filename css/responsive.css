@@ -4,6 +4,322 @@
   }
 }
 
+/* Portfolio responsive layout */
+@media (max-width: 1199px) {
+  .img_wrap {
+    align-items: stretch;
+  }
+
+  .img1,
+  .img2 {
+    width: 50%;
+  }
+
+  .brand_hover,
+  .brand_hover2,
+  .brand_hover3,
+  .brand_hover img,
+  .brand_hover2 img,
+  .brand_hover3 img {
+    width: 100%;
+  }
+
+  .mi_img .brand_hover3 {
+    width: 50%;
+  }
+
+  .artwork_box {
+    gap: 24px;
+  }
+
+  .awesome-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 361 / 449;
+  }
+
+  .awesome-img > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .artwork_img,
+  .project_img,
+  .contact_img {
+    display: none;
+  }
+
+  .skill {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    padding-top: 64px;
+    font-size: 27px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .bg {
+    height: 220px;
+  }
+
+  video {
+    object-fit: cover;
+  }
+
+  .gnb_line {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    background: rgba(255, 255, 255, 0.94);
+  }
+
+  .gnb_li {
+    width: 100%;
+  }
+
+  .gnb_li ul,
+  nav ul {
+    justify-content: flex-start;
+    gap: 22px;
+    width: 100%;
+    padding: 14px 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .gnb_li ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav li {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  nav li a {
+    font-size: 13px;
+  }
+
+  .gnb-object,
+  .about_img {
+    display: none;
+  }
+
+  #about_wrap,
+  #myroad,
+  #PROJECTS_wrap h3,
+  .main_project,
+  #ARTWORK_wrap h3,
+  .artwork_box,
+  #print_wrap h3,
+  .print_box,
+  .print_desc,
+  .skill_title,
+  .skills,
+  #CONTACT h3,
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 34px 0 54px;
+  }
+
+  .about > img {
+    width: min(260px, 78vw);
+    margin: 0 auto;
+  }
+
+  .about_txt {
+    padding: 32px 0 0;
+  }
+
+  .about_txt h4 {
+    font-size: 22px;
+    line-height: 1.45;
+  }
+
+  .txt1,
+  .txt2 {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .txt1 {
+    padding: 18px 0;
+  }
+
+  .txt2 {
+    padding-bottom: 28px;
+  }
+
+  .about_li {
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  .about_li li {
+    padding-right: 0;
+  }
+
+  .main_project {
+    padding-top: 54px;
+  }
+
+  .img_wrap {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .img1,
+  .img2 {
+    width: 100%;
+    float: none;
+  }
+
+  .brand_hover,
+  .brand_hover2 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 578 / 430;
+  }
+
+  .brand_hover2 {
+    aspect-ratio: 610 / 218;
+  }
+
+  .brand_hover img,
+  .brand_hover2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mi_img {
+    gap: 6px;
+    margin-top: 6px;
+  }
+
+  .mi_img .brand_hover3 {
+    width: calc(50% - 3px);
+    height: auto;
+    aspect-ratio: 304 / 212;
+  }
+
+  .brand_hover3 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projcet_btn_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .project_btn {
+    font-size: 13px;
+  }
+
+  .main_project p,
+  .print_desc p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .project-meta div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .artwork_box {
+    flex-direction: column;
+    padding-top: 34px;
+  }
+
+  .project-dec {
+    transform: none;
+    padding-top: 35%;
+  }
+
+  .print_box {
+    flex-direction: column;
+    padding-top: 24px;
+  }
+
+  .print_box img {
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+  }
+
+  .myroad_box {
+    flex-direction: column;
+    gap: 46px;
+    padding-top: 34px;
+  }
+
+  .myroad_title {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .date {
+    margin-left: 30px;
+    font-size: 15px;
+  }
+
+  .skills {
+    margin-top: 54px;
+  }
+
+  .skill {
+    gap: 22px 12px;
+  }
+
+  .circle,
+  .circle svg {
+    width: 160px;
+    height: 160px;
+  }
+
+  .circle svg {
+    overflow: visible;
+    transform: rotate(-90deg) scale(0.72);
+    transform-origin: center;
+  }
+
+  .inner span {
+    font-size: 22px;
+  }
+
+  .inner p {
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 34px;
+  }
+
+  #footer {
+    margin-top: 50px;
+  }
+}
+
 /* Normal desktop :992px. */
 
 @media (min-width: 992px) and (max-width: 1169px) {
