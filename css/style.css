@@ -611,6 +611,65 @@ h4 {
     padding-top: 15px;
 }
 
+/*AI_wrap*/
+#AI_wrap h3,
+.ai_box {
+    width: min(1210px, calc(100% - 40px));
+    margin: 0 auto;
+}
+
+.ai_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.ai_card {
+    box-sizing: border-box;
+}
+
+.ai_img {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F3EF;
+}
+
+.ai_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ai_card .project_title {
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+.ai_card p {
+    padding-top: 6px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #3C3C3C;
+    font-weight: 500;
+}
+
+.ai_card .project-meta {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .ai_box {
+        grid-template-columns: 1fr;
+    }
+}
+
 /*myroad*/
 #myroad {
     width: min(1210px, calc(100% - 40px));
